@@ -1,3 +1,5 @@
+require 'pry'
+
 def addition(num1, num2)
   num1 + num2
 end
@@ -24,4 +26,5 @@ end
 
 def order_of_operation(num1, num2, num3, num4)
   num3 + (( num1 * num2 ) / num4 )
+  binding.pry
 end
